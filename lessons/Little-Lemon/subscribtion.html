@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Little Lemon</title>
+    </head>
+    <body>
+        <form action="/registration" method="POST">
+            <label for="email">Email:</label><br>
+            <input type="email" name="email"/><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" /><br>
+
+            <label for="age">age:</label>
+            <input type="number" name="age"/><br>
+
+            <input type="checkbox" name="policy" value="Agree_Policy"/>
+            <lable for="policy">Do you agree the policy?</lable><br>
+
+            <input type="checkbox" name="terms" value="Agree_Terms"/>
+            <lable for="terms">Do you agree the terms?</lable><br>
+
+            <lable for="multiline">Please read.</lable><br>
+            <textarea name="multiline" rows="5">This is the policy and terms</textarea><br>
+
+            <select name="Products">
+                <option value="chocolate">Chocolate</option>
+                <option value="strawberry">Strawberry</option>
+            </select>
+
+            <input type="submit"/>
+
+
+        </form>
+    </body>
+</html>
